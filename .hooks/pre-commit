@@ -1,0 +1,4 @@
+#!/bin/bash
+
+exec dart format --output=none --set-exit-if-changed .
+exec dart analyze
